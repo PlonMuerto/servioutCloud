@@ -1,0 +1,124 @@
+#redes,
+#closeredes{
+    z-index:3;
+    position:fixed;
+    bottom:.5%;
+    right:.5%;
+    padding: 3px;
+    display:flex;
+    border-top-left-radius: 10px;
+    flex-direction: column;
+    --font-redes:35px;
+}
+#redes .container{
+    opacity: 1;
+    visibility: visible;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: ease all 400ms;
+}
+#closeredes .container{
+    transition: ease all 400ms;
+    opacity: 0;
+    margin-bottom: -45px;
+    visibility: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: 0;
+}
+#redes .container .social,
+#closeredes .container .social{ 
+    padding: 5px;
+    margin-bottom: 3px;
+    width: 45px;
+    height: 45px;
+    background-color: #cc2b2b;
+    border-radius: 100%;
+    font-size:var(--font-redes);
+    color:rgb(255, 255, 255);
+}
+#redes .container .social:nth-child(1):hover{
+    color: rgb(66, 66, 238);
+}
+#redes .container .social:nth-child(2):hover{
+    color: rgb(47, 250, 87);
+}
+#redes .container .social:nth-child(3):hover{
+    
+    color: rgb(125, 0, 214);
+}
+#redes .container .social:hover,
+#closeredes .container .social:hover{
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+#redes .close{
+    width: 45px;
+    height: 45px;
+    font-size: var(--font-redes);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #cc2b2b;
+    border-radius: 50%;   
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+#closeredes .close{
+    width: 45px;
+    height: 45px;
+    font-size: var(--font-redes);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #cc2b2b;
+    border-radius: 50%;   
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+    transform: rotate(135deg);
+}
+#redes .close:hover{
+    cursor: pointer;
+    color: #222;
+}
+
+
+@media (max-width:1000) {
+    #redes{
+        --font-red: 30px;
+    }   
+}
+
+@media (max-width:600) {
+    #redes{
+        --font-red:20px;
+    }   
+}
+
+/*/animations*/
+@keyframes openRed{
+    to{
+        height: 0;
+    }
+    from{
+        height: auto;
+    }
+}
+
+@keyframes closeRed{
+    to{
+        height: auto;
+        
+    }
+    from{
+        height: 0;
+    
+    }
+}

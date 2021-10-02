@@ -1,0 +1,123 @@
+#body{
+    margin:0;
+    width: 100%;
+    color:#222;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+#body .container{
+    margin-top: 100px;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    align-items: center;
+}
+#body .container .concepto{
+    width: 90%;
+    max-width: 700px;
+    min-width: 200px;
+    padding: 3px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    color: whitesmoke ;
+
+    border-radius: 3px;
+    margin:50px 0;
+}
+#body .container .concepto .title{
+    margin:0;
+    font-size: 35px;
+    text-align: center;
+}
+#body .container .concepto .parrafo{
+    text-align: center;
+    margin: 0;
+    font-size: 22px;
+}
+#body .container .concepto .parrafo::first-letter{
+    padding: 0px 8px 5px 8px;
+    transform: translateY(10px);
+    text-align: center;
+    font-size: 28px;
+    border-radius: 2px;
+    margin: 2px;
+    display: inline-block;
+    background-color: crimson;
+}
+#body .container .concepto .parrafo .clave{
+    color: crimson;
+    font-weight: 400;
+}
+#body .container .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+    box-sizing: border-box;
+}
+#body .container .info .data{
+    width: 45%;
+    box-sizing: border-box;
+    min-width: 210px;
+    margin: 10px 3px;
+}
+
+#body .container .info .data .title{
+    color: crimson;
+    width: 100%;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+
+}
+#body .container .info .data .title::before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 2%; 
+    top:51%;
+    background-color: rgb(194, 194, 194);
+    width: 35%;
+    height: 1px;
+}
+#body .container .info .data .title::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 2%;
+    top:51%;
+    background-color: rgb(194, 194, 194);
+    width: 35%;
+    height: 1px;
+}
+
+#body .container .info .data .parrafo{
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #eee;
+}
+@media (max-width:600px){
+    #body .container .info .data{
+        width:100%;
+    }
+    #body .container .info .data .title::before{
+        width: 30%;
+
+    }
+    #body .container .info .data .title::after{
+        width: 30%;
+    }
+}

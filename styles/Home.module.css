@@ -1,0 +1,214 @@
+#body{
+  margin:0;
+  width: 100%;
+  color:#222;
+  display: flex;
+  background-color: rgb(247, 247, 247);
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin-top: 100px;
+}
+#body .presentacion{
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0;
+}
+
+#body .presentacion .background{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  filter: sepia(3) blur(3px);
+  z-index: 1;
+  position: absolute;
+  background-image: url("https://res.cloudinary.com/handelcorp/image/upload/v1633101982/serviout/fondo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#body .presentacion .subtitle{
+  box-sizing: border-box;
+  z-index: 2;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  border-bottom: rgb(255, 255, 255) 1px solid;
+  border-top: rgb(255, 255, 255) 1px solid;
+  transition: .3s ease background-color;
+  padding :17px 3px;
+  user-select: none;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+
+#body .presentacion .content{
+  z-index: 2;
+  width: 50%;
+  color: rgb(238, 238, 238);
+  font-weight: 700;
+  text-align: justify;
+  transition: .3s ease background-color;
+  font-size: 22px;
+  user-select: none;
+  padding:3px;
+  box-sizing: border-box;
+}
+
+#body .quality{
+  width: 100%;
+  min-height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(69,66,66);
+  background: -moz-linear-gradient(74deg, rgba(69,66,66,1) 16%, rgba(25,25,25,1) 90%);
+  background: -webkit-linear-gradient(74deg, rgba(69,66,66,1) 16%, rgba(25,25,25,1) 90%);
+  background: linear-gradient(74deg, rgba(69,66,66,1) 16%, rgba(25,25,25,1) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#454242",endColorstr="#191919",GradientType=1);
+}
+#body .quality .section{
+  width: 220px;
+  color: aliceblue;
+  display: flex;
+  margin: 10px 0;
+  flex-direction: column;
+  align-items: center;
+}
+#body .quality .section .icon{
+  font-size: 50px;
+  color: crimson;
+}
+#body .quality .section .title{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#body .quality .section .desc{
+  text-align: center;
+}
+#body .carousel{
+  width:80%;
+  min-width: 260px;
+  margin: 0 0;
+  
+}
+#body .services{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  color: aliceblue;
+}
+#body .services .title{
+  font-size: 35px;
+  margin: 0;
+  margin-top: 30px;
+  color: crimson;
+}
+#body .services .servicesContainer{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#body .services .servicesContainer .service{
+  padding:3px;
+  box-sizing: border-box;
+  min-width: 220px;
+}
+#body .services .servicesContainer .service .subservice:nth-child(1){
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#body .services .servicesContainer .service .subservice{
+  list-style:none;
+  font-size: 18px;
+  text-align: center;
+  padding:3px 0;
+  transition: .3s ease color;
+}
+#body .services .servicesContainer .service .subservice:hover{
+  color:crimson;
+  cursor: pointer;
+}
+
+@media(max-width:1000px){
+  #body .presentacion .subtitle{
+    font-size: 32px;
+    padding :9px 2px;
+  }
+  #body .presentacion .content{
+    z-index: 2;
+    width: 70%;
+    font-weight: 600;
+    text-align: center;
+    transition: .3s ease background-color;
+    font-size: 17px;
+    padding:2px;
+  }
+  #body .services .title{
+    font-size: 30px;
+    
+  }
+  #body .services .servicesContainer{
+    width: 94%;
+  }
+  #body .services .servicesContainer .service .subservice:nth-child(1){
+    font-size: 22px;
+  }
+  #body .services .servicesContainer .service .subservice{
+    font-size: 16px;
+  }
+}
+
+@media(max-width:700px){
+  #body .presentacion .subtitle{
+    font-size: 18px;
+    
+  }
+  #body .presentacion .content{
+    z-index: 2;
+    width: 95%;
+    font-weight: 500;
+    text-align: center;
+    transition: .3s ease background-color;
+    font-size: 14px;
+    padding:1px;
+  }
+  #body .services .title{
+    font-size: 25px;
+    
+  }
+  #body .services .servicesContainer{
+    width: 98%;
+  }
+
+  #body .services .servicesContainer .service .subservice:nth-child(1){
+    font-size: 20px;
+  }
+  #body .services .servicesContainer .service .subservice{
+    font-size: 14px;
+  }
+}

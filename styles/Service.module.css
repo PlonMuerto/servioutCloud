@@ -1,0 +1,103 @@
+#service{
+    margin:0;
+    width: 100%;
+    color:rgb(255, 253, 253);
+    padding: 0;
+}
+#service .container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #323232;
+}
+#service .container .title{
+    margin:50px 0;
+    width: 100%;
+    font-size: 35px;
+    color:crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    line-height: 40px;
+}
+
+#service .container .data{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 0;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#service .container .data .image{
+    min-width: 220px;
+    width: 44%;
+    margin:20px 0;
+}
+
+#service .container .data .text{
+    min-width: 200px;
+    width: 40%;
+    margin:20px 0;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (max-width:1000px){
+    #service .container .data .image{
+        width: 90%;
+    }
+    
+    #service .container .data .text{
+        width: 90%;
+    }
+}
+#service .container .data .text .desc{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(230, 230, 230);
+}
+#service .container .data .text .details{
+    width: 100%;
+    color: #efe;
+    display: flex;
+    flex-direction: column;
+}
+#service .container .data .text .details .detailsTitle{
+    font-size: 17px;
+    font-weight: 600;
+    color: crimson;
+}
+#service .container .data .text .details .detail{
+    font-size: 15px;
+
+    border-bottom: 2px solid #222;
+    color: rgb(224, 228, 227);
+    margin:3px 0;
+    padding: 5px 2px;
+    box-sizing: border-box;
+
+}
+#service .container .data .text .contact{
+    width: 160px;
+    color:rgb(17, 17, 17);
+    padding: 3px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    transition: background-color 400ms ease;
+    align-self: flex-start;
+}
+#service .container .data .text .contact:hover{
+    background-color: crimson;
+    cursor:pointer;
+}

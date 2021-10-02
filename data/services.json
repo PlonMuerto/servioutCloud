@@ -1,0 +1,144 @@
+{
+    "ServicesConst":[
+        {
+            "title":"Construccion de Proyectos",
+            "desc":"Diseñamos todo tipo de proyectos , desde la creacion de planos hasta la finalizacion de la obra, contamos con un equipo de ingenieros,contratistas y colaboradores  enfocados en este arte. Los cuales hacen que los resultados sean aun mas eficases, este servicio es ideal si tiene un proyecto en mente y quiere pasarlo a la realidad ademas nos basamos en la utiliizacion de los mejores materiales para realizar los proyectos de construccion .",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632869019/serviout/construccion_S.jpg",
+            "alt":"trabajando en construccion",
+            "details":[
+                {
+                    "name":"Precio",
+                    "data":"Según lo cotizado"
+                }
+            ]
+        },
+        {
+            "title":"Remodelacion de Interiores y Exteriores",
+            "desc":"Uno de los servicios de mayor demanda, si piensa cambiar o remodelar algun espacio de su casa o empresa, este servicio es el  ideal debido a que conocemos muy bien del tema , le mostraremos un catalogo con aquellos aspectos que podria tener ese espacio que quiere cambiar, diseñamos y restructuramos esa idea que tiene en mente , contamos con: Elavoracion de techos en drywall o pvc, enchapado de pisos , instalacioón de pisos laminados,pintura en general, revestimientos, pañetes, construcción de placas, estructura general en concreto , electricidad, elavoracion de zapatas etc.",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632869187/serviout/remodelaciones_S.jpg",
+            "alt":"remodelando interior de una casa",
+            "details":[
+                {
+                    "name":"Precio",
+                    "data":"Según lo cotizado"
+                }
+            ]
+        },
+        {
+            "title":"Carpinteria",
+            "desc":"Elaboración de  todo tipo de muebles,  cocinas integrales, bibliotecas, puertas principales y de alcobas, nos basamos en sus gustos,  si desea un tema rustico o algo más moderno tenemos un diseño para cada cliente además  contamos con los materiales más completos del mercado en todos sus aspectos ",
+            "details":[
+                {
+                    "name":"Precio",
+                    "data":"Según lo cotizado"
+                }
+            ],
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632868729/serviout/carpinteria_S.jpg",
+            "alt":"trabajando en madera"
+        },
+        {
+            "title":"Plomeria",
+            "desc":"Sabemos de la importancia de la plomería  en tu hogar o empresa, por eso motivo brindamos los servicios de  Montaje de arañas hidráulicas , intalaciones dé Tanques aéreos con Presión dé entrada o por Gravedad, instalación dé tanques dé agua caliente eléctricos y Gas, destapada dé tuberías hidráulicos.",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632871582/serviout/plomeria_S.jpg",
+            "alt":"trabajando en un problema de cañerias"
+        },
+        {
+            "title":"Ornamentacion",
+            "desc":"Diseño fabricación y montaje de estructuras metálicas, mezaninne, cerramientos, cubiertas; Contamos con personal calificado y capacitado para llevar acabo sus proyectos, Trabajamos sobre diseño y asesoramos para un mejor servicio",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632870302/serviout/Ornamentacion_S.jpg",
+            "alt":"trabajando en acero"
+        }
+    ],
+    "ServicesTelec":[
+        {
+            "title":"Camaras de Seguridad",
+            "desc":"Para hogares y empresas, si desea implementar vigilancia constante a sus bienes,  nuestro servicio de cámaras de seguridad es el ideal, usando cámaras de seguridad tipo IP o análogas con una alta calidad de imagen donde podrá ser vista desde un panel de control principal o desde un dispositivo móvil.",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632869782/serviout/camaras_S.jpg",
+            "alt":"instalando camaras de seguridad",
+            "details":[
+                {
+                    "name":"Cámaras para uso interno",
+                    "data":"Tipo domo, robóticas con movimiento, ocultas"
+                },
+                {
+                    "name":"Cámaras para uso externo",
+                    "data":"Tipo bala, ciber domos ptz con movimiento."
+                },
+                {
+                    "name":"Precio",
+                    "data":"Segun cotizado"
+                }
+            ]
+        },
+        {
+            "title":"Deteccion de Incendios",
+            "desc":"Para hogares y empresas contamos con el sistema de detección de incendios, ideal para alertar y prevenir a las personas de incendios. Contamos un equipo de ingeniería el cual se encargará de hacer  el estudio y monitoreo del sistema ya establecido.",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1633102354/serviout/images_r8vq8n.jpg",
+            "alt":"instalando detectores de humo"
+        },
+        {
+            "title":"Controles de Accesos",
+            "desc":"Con este sistema controlas quien puede ingresar a un área o no, contamos con los detector de  reconocimiento facial, censores de huellas dactilares, Ingreso con clave. Además podrá otorgarle seguridad a esos espacios que más lo requieren.",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632871063/serviout/control_S.jpg",
+            "alt":"configurando accesos"
+        }
+    ],
+    "ServicesMud":[
+        {
+            "title":"Mudanza S",
+            "desc":"Para el  trasporte de  poca mercancía o  elementos del hogar, contamos con el servicio de trasporte tipo S , el cual cuenta con un espacio limitado.",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632866192/serviout/mudanzas_S.jpg",
+            "alt":"instalando camaras de seguridad",
+            "details":[
+                {
+                    "name":"Vehículos",
+                    "data":"Chevrolet Carry"
+                },
+                {
+                    "name":"Precio",
+                    "data":"Segun cotizado"
+                }
+            ]
+        },
+        { 
+            "title":"Mudanza M",
+            "desc":"trabajamos en construccion de proyectos de edificaciones y demas",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632870617/serviout/musanzas_M.jpg",
+            "alt":"instalando camaras de seguridad",
+            "details":[
+                {
+                    "name":"Disponibilidad",
+                    "data":"Limitada"
+                },
+                {
+                    "name":"Vehículos",
+                    "data":"De estacas, Turbo NPR"
+                },
+                {
+                    "name":"Precio",
+                    "data":"Segun cotizado"
+                }
+            ]
+        },
+        { 
+            "title":"Mudanza L",
+            "desc":"Para aquellos hogares que son bastante amplios contamos con el servicio de trasporte  L, ideal para aquellas mudanzas las cuales cuentan con una gran variedad de objetos u elementos.",
+            "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632865228/serviout/mudanzas_L.png",
+            "alt":"instalando camaras de seguridad",
+            "details":[
+                {
+                    "name":"Disponibilidad",
+                    "data":"Limitada"
+                },
+                {
+                    "name":"Vehículos",
+                    "data":"NHR, Furgones"
+                },
+                {
+                    "name":"Precio",
+                    "data":"Segun cotizado"
+                }
+            ]
+        }
+    ]
+}
