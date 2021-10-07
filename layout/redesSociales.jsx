@@ -38,6 +38,9 @@ export default function RedesSociales(){
                                 margin-bottom: 3px;
                                 width: 45px;
                                 height: 45px;
+                                display:flex;
+                                justify-content:center;
+                                align-items:center;
                                 background-color: crimson;
                                 border-radius: 100%;
                                 font-size:var(--font-redes);
