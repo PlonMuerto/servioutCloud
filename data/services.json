@@ -1,7 +1,7 @@
 {
     "ServicesConst":[
         {
-            "title":"Construccion de Proyectos",
+            "title":"Construcción de Proyectos",
             "desc":"Diseñamos todo tipo de proyectos , desde la creacion de planos hasta la finalizacion de la obra, contamos con un equipo de ingenieros,contratistas y colaboradores  enfocados en este arte. Los cuales hacen que los resultados sean aun mas eficases, este servicio es ideal si tiene un proyecto en mente y quiere pasarlo a la realidad ademas nos basamos en la utiliizacion de los mejores materiales para realizar los proyectos de construccion .",
             "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632869019/serviout/construccion_S.jpg",
             "alt":"trabajando en construccion",
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "title":"Carpinteria",
+            "title":"Ebanistería y Carpintería",
             "desc":"Elaboración de  todo tipo de muebles,  cocinas integrales, bibliotecas, puertas principales y de alcobas, nos basamos en sus gustos,  si desea un tema rustico o algo más moderno tenemos un diseño para cada cliente además  contamos con los materiales más completos del mercado en todos sus aspectos ",
             "details":[
                 {
@@ -43,7 +43,7 @@
             "alt":"trabajando en un problema de cañerias"
         },
         {
-            "title":"Ornamentacion",
+            "title":"Ornamentación",
             "desc":"Diseño fabricación y montaje de estructuras metálicas, mezaninne, cerramientos, cubiertas; Contamos con personal calificado y capacitado para llevar acabo sus proyectos, Trabajamos sobre diseño y asesoramos para un mejor servicio",
             "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632870302/serviout/Ornamentacion_S.jpg",
             "alt":"trabajando en acero"
@@ -71,7 +71,7 @@
             ]
         },
         {
-            "title":"Deteccion de Incendios",
+            "title":"Detección de Incendios",
             "desc":"Para hogares y empresas contamos con el sistema de detección de incendios, ideal para alertar y prevenir a las personas de incendios. Contamos un equipo de ingeniería el cual se encargará de hacer  el estudio y monitoreo del sistema ya establecido.",
             "link":"https://res.cloudinary.com/handelcorp/image/upload/v1633102354/serviout/images_r8vq8n.jpg",
             "alt":"instalando detectores de humo"
@@ -102,13 +102,13 @@
         },
         { 
             "title":"Mudanza M",
-            "desc":"trabajamos en construccion de proyectos de edificaciones y demas",
+            "desc":" Para aquellos hogares los cuales requieren un vehículo de espacio mediano, ideal para el tipo de mudanzas promedio.",
             "link":"https://res.cloudinary.com/handelcorp/image/upload/v1632870617/serviout/musanzas_M.jpg",
             "alt":"instalando camaras de seguridad",
             "details":[
                 {
                     "name":"Disponibilidad",
-                    "data":"Limitada"
+                    "data":"limitada"
                 },
                 {
                     "name":"Vehículos",
@@ -116,7 +116,7 @@
                 },
                 {
                     "name":"Precio",
-                    "data":"Segun cotizado"
+                    "data":"Según lo cotizado"
                 }
             ]
         },

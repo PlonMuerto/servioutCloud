@@ -26,24 +26,24 @@ export default function Home() {
       <main className={styles.container}>
         <div className={styles.concepto}>
           <h5 className={styles.title}>
-            Filosofia
+            Filosofía 
           </h5>
 
           <p className={styles.parrafo}>
-          Sabemos las necesidades y requerimientos que desean nuestros clientes, por esta razón nos enfocamos en tres pilares.<span className={styles.clave}>Calidad</span>, <span className={styles.clave}>Garantia</span> y <span className={styles.clave}>Compromiso</span>, Llegando así a el cumplimiento y elaboración de los servicios solicitados
+          Sabemos las necesidades y requerimientos que tienen nuestros clientes, por esta razón nos enfocamos en tres pilares. <span className={styles.clave}>Calidad</span>, <span className={styles.clave}>Garantia</span> y <span className={styles.clave}>Compromiso</span>, Llegando así a el cumplimiento  total en cada uno de los servicios realizados.
           </p>
         
         </div>
 
         <div className={styles.info}>
           <div className={styles.data}>
-            <h6 className={styles.title}>Mision</h6>
+            <h6 className={styles.title}>Misión.</h6>
             <p className={styles.parrafo}>
             Somos una empresa dedicada a la prestación de servicios de construcción, telecomunicaciones, mudanzas para hogar y empresas; con un personal altamente calificado cumpliendo los requerimientos de nuestros clientes.
             </p>
           </div>
           <div className={styles.data}>
-            <h6 className={styles.title}>Vision</h6>
+            <h6 className={styles.title}>Visión.</h6>
             <p className={styles.parrafo}>
             Sabemos el compromiso que tenemos como empresa con nuestros clientes, por eso para el año 2025 contaremos con todas las normas ISO. las cuales nos certificaran en la calidad y elaboración de nuestros procesos
             </p>

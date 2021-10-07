@@ -37,9 +37,9 @@ export default function Home() {
         <div className={styles.background}>
 
         </div>
-        <h3 className={styles.subtitle}>¿porque deberías elegir nuestros servicios?</h3>
+        <h3 className={styles.subtitle}>¿Por qué deberías escoger nuestros servicios?</h3>
         <p className={styles.content}>
-          somos una empresa dedicada a la prestación de servicios de Construcción y telecomunicaciones para hogares y empresas contando con todos los estándares de calidad.
+          Sabemos los requerimientos y necesidades  de nuestros clientes por este motivo, contamos con  un personal idóneo para la ejecución en la variedad de servicios que tenemos , cumpliendo con los precios y tiempos establecidos por el cliente y la empresa , utilizando los materiales con más alta calidad del mercado 
         </p>
       </section>
       
@@ -47,19 +47,19 @@ export default function Home() {
         <div className={styles.section}>
           
           <span><SentimentVerySatisfiedIcon className={styles.icon}/></span>
-          <span className={styles.title}>Calidad</span>
-          <span className={styles.desc}>nuestros trabajos cuentan con la más alta calidad</span>
+          <span className={styles.title}>CALIDAD</span>
+          <span className={styles.desc}>Gracias a que nuestros colaboradores se destacan en cada una de sus áreas, cada uno de nuestros servicios se ejecutan de la mejor manera.</span>
         </div>
         <div className={styles.section}>
           <span><TimerIcon className={styles.icon}/></span>
-          <span className={styles.title}>Tiempos</span>
-          <span className={styles.desc}>garantizamos un trabajo excelente y garantizamos retribución en caso de no quedar satisfecho</span>
+          <span className={styles.title}>TIEMPOS</span>
+          <span className={styles.desc}>Conocemos la importancia de este factor en la elaboración de un servicio, por este motivo cumplimos con las fechas establecidas en los contratos para un excelente servicio.</span>
 
         </div>
         <div className={styles.section}>
           <span><AttachMoneyIcon className={styles.icon} /></span>
-          <span className={styles.title}>Precio</span>
-          <span className={styles.desc}>los mejores precios posibles para dar la mejor calidad de trabajo a nuestros clientes </span>
+          <span className={styles.title}>PRECIOS</span>
+          <span className={styles.desc}>Cada uno de nuestros clientes es especial, esto   nos conlleva a tener precios personalizados según sus requerimientos</span>
         </div>
       </section>
 

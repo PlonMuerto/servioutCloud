@@ -123,6 +123,7 @@ export default function Contacto() {
     })
 
     const { name,email,phone,message} = e.currentTarget;
+
     if(!name.value || name.value.length < 2){
       
       setErrors(s=>{
@@ -144,17 +145,22 @@ export default function Contacto() {
       return
     }
 
-    if(!phone.value|| phone.value > 999999999){
+    if(!phone.value){
+
+      let largo = phone.value.toString().split("").length;
+      if(largo===10){
+          return
+      }
       setErrors(s=>{
         return{
           ...s,
           phone:true
         }
       })
-      return
+      
     }
 
-    if(!message.value || message.value.length < 11){
+    if(!message.value){
       setErrors(s=>{
         return{
           ...s,
@@ -172,7 +178,10 @@ export default function Contacto() {
       service:currency,
     }
 
-    alert("danda")
+    alert("¡Estamos en Desarrollo!")
+  
+
+    /*
     let res = await fetch("api/mails",{
       method:"POST",
       body:JSON.stringify(pedido)
@@ -181,6 +190,7 @@ export default function Contacto() {
     let data = await res.json;
 
     alert(JSON.stringify(data));
+    */
     
   }
   
@@ -212,11 +222,11 @@ export default function Contacto() {
       <main className={styles.contact}>
         <div className={styles.contactContainer}>
           <div className={styles.info}>
-            <h4 className={styles.title}>Contactanos</h4>
+            <h4 className={styles.title}>Contáctanos</h4>
             <div className={styles.data}>
-              <p className={styles.subtitle}>Pongase en contacto con nosotros y nos comunicaremos con usted. </p>
+              <p className={styles.subtitle}>Póngase en contacto con nosotros a través de nuestras redes sociales </p>
               <p>Contactanos: <span className={styles.subtitle}>+57 311 798 8916</span> </p>
-              <p>Direccion: <span className={styles.subtitle}>Calle 69b 105-80</span> </p>
+              <p>Dirección: <span className={styles.subtitle}>Calle 69b 105-80</span> </p>
               
             </div>
           </div>

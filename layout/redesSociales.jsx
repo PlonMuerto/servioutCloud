@@ -19,18 +19,33 @@ export default function RedesSociales(){
         <div  id={toggle ? styles.closeredes : styles.redes}>
             <div className={styles.container}>
                 <Link href="https://www.facebook.com/Servi-Out-102844281668619/">
-                    <a target="_blank"><FacebookIcon className={styles.social} /></a>
+                    <a target="_blank"><FacebookIcon className={styles.social} id="face"/></a>
                 </Link>
                 <Link href="https://www.instagram.com/servi_o.u.t/">
-                    <a target="_blank"><InstagramIcon className={styles.social} /></a>
+                    <a target="_blank"><InstagramIcon className={styles.social} id="inst" /></a>
                 </Link>
                 <Link href="https://wa.me/573117988916">
-                    <a target="_blank"><WhatsAppIcon className={styles.social} /></a>
+                    <a target="_blank"><WhatsAppIcon className={styles.social} id="what" /></a>
                 </Link>
             </div>
+            
             <span className={styles.close} onClick={changeRed}>
                 <Close />
             </span>
+            <style jsx>{`
+                #face:hover{
+                    color:#1651EE;
+                    cursor:pointer;
+                }
+                #inst:hover{
+                    color:#6A19F9;
+                    cursor:pointer;
+                }
+                #what:hover{
+                    color:#15F22E;
+                    cursor:pointer;
+                }
+            `}</style>
         </div>
     ) 
 }

@@ -40,22 +40,9 @@
     border-radius: 100%;
     font-size:var(--font-redes);
     color:rgb(255, 255, 255);
-}
-#redes .container .social:nth-child(1):hover{
-    color: rgb(66, 66, 238);
-}
-#redes .container .social:nth-child(2):hover{
-    color: rgb(47, 250, 87);
-}
-#redes .container .social:nth-child(3):hover{
-    
-    color: rgb(125, 0, 214);
-}
-#redes .container .social:hover,
-#closeredes .container .social:hover{
-    cursor: pointer;
     transition: all 500ms ease;
 }
+
 
 #redes .close{
     width: 45px;
