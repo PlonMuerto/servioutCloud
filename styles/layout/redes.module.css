@@ -30,18 +30,7 @@
     overflow: hidden;
     height: 0;
 }
-#redes .container .social,
-#closeredes .container .social{ 
-    padding: 5px;
-    margin-bottom: 3px;
-    width: 45px;
-    height: 45px;
-    background-color: #cc2b2b;
-    border-radius: 100%;
-    font-size:var(--font-redes);
-    color:rgb(255, 255, 255);
-    transition: all 500ms ease;
-}
+
 
 
 #redes .close{

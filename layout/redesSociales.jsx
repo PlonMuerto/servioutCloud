@@ -19,13 +19,13 @@ export default function RedesSociales(){
         <div  id={toggle ? styles.closeredes : styles.redes}>
             <div className={styles.container}>
                 <Link href="https://www.facebook.com/Servi-Out-102844281668619/">
-                    <a target="_blank"><FacebookIcon className={styles.social} id="face"/></a>
+                    <a target="_blank"><FacebookIcon className={"social face"} /></a>
                 </Link>
                 <Link href="https://www.instagram.com/servi_o.u.t/">
-                    <a target="_blank"><InstagramIcon className={styles.social} id="inst" /></a>
+                    <a target="_blank"><InstagramIcon className={"social inst"} /></a>
                 </Link>
                 <Link href="https://wa.me/573117988916">
-                    <a target="_blank"><WhatsAppIcon className={styles.social} id="what" /></a>
+                    <a target="_blank"><WhatsAppIcon className={"social what"} /></a>
                 </Link>
             </div>
             
@@ -33,15 +33,26 @@ export default function RedesSociales(){
                 <Close />
             </span>
             <style jsx>{`
-                #face:hover{
+                            .social{ 
+                                padding: 5px;
+                                margin-bottom: 3px;
+                                width: 45px;
+                                height: 45px;
+                                background-color: #cc2b2b;
+                                border-radius: 100%;
+                                font-size:var(--font-redes);
+                                color:rgb(255, 255, 255);
+                                transition: all 500ms ease;
+                            }
+                .face:hover{
                     color:#1651EE;
                     cursor:pointer;
                 }
-                #inst:hover{
+                .inst:hover{
                     color:#6A19F9;
                     cursor:pointer;
                 }
-                #what:hover{
+                .what:hover{
                     color:#15F22E;
                     cursor:pointer;
                 }
