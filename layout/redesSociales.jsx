@@ -35,7 +35,7 @@ export default function RedesSociales(){
             <style jsx>{`
                             .social{ 
                                 padding: 5px;
-                                margin-bottom: 3px;
+                                margin-bottom: 4px;
                                 width: 45px;
                                 height: 45px;
                                 display:flex;
