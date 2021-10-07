@@ -19,13 +19,13 @@ export default function RedesSociales(){
         <div  id={toggle ? styles.closeredes : styles.redes}>
             <div className={styles.container}>
                 <Link href="https://www.facebook.com/Servi-Out-102844281668619/">
-                    <a target="_blank"><FacebookIcon className={"social face"} /></a>
+                    <a target="_blank" className={"social face"}><FacebookIcon  /></a>
                 </Link>
                 <Link href="https://www.instagram.com/servi_o.u.t/">
-                    <a target="_blank"><InstagramIcon className={"social inst"} /></a>
+                    <a target="_blank" className={"social inst"}><InstagramIcon  /></a>
                 </Link>
                 <Link href="https://wa.me/573117988916">
-                    <a target="_blank"><WhatsAppIcon className={"social what"} /></a>
+                    <a target="_blank" className="social what"><WhatsAppIcon  /></a>
                 </Link>
             </div>
             
@@ -38,7 +38,7 @@ export default function RedesSociales(){
                                 margin-bottom: 3px;
                                 width: 45px;
                                 height: 45px;
-                                background-color: #cc2b2b;
+                                background-color: crimson;
                                 border-radius: 100%;
                                 font-size:var(--font-redes);
                                 color:rgb(255, 255, 255);
