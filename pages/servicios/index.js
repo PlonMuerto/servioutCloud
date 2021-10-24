@@ -35,7 +35,7 @@ export default function Home({telecom,construccion,mudanza}) {
         
 
         <section className={styles.services}>
-          <h4 className={styles.subtitle}>Construccíon</h4>
+          <h4 className={styles.subtitle}>Construcción</h4>
           
           {
             (construccion && construccion.length)

@@ -39,13 +39,13 @@ export default function Home() {
           <div className={styles.data}>
             <h6 className={styles.title}>Misión.</h6>
             <p className={styles.parrafo}>
-            Somos una empresa dedicada a la prestación de servicios de construcción, telecomunicaciones, mudanzas para hogar y empresas; con un personal altamente calificado cumpliendo los requerimientos de nuestros clientes.
+              Somos una empresa dedicada a la prestación de servicios de (Construcción, Telecomunicaciones y Mudanzas) para hogares y empresas con un personal altamente calificado, teniendo como objetivo innovar estos tres sectores. 
             </p>
           </div>
           <div className={styles.data}>
             <h6 className={styles.title}>Visión.</h6>
             <p className={styles.parrafo}>
-            Sabemos el compromiso que tenemos como empresa con nuestros clientes, por eso para el año 2025 contaremos con todas las normas ISO. las cuales nos certificaran en la calidad y elaboración de nuestros procesos
+            Sabemos el compromiso que tenemos con nuestros clientes , por este motivo para el año 2025 contaremos con todas las normas iso , las cuales nos certificaran en la calidad  en la elaboración de nuestros procesos, además de Implementar una app la cual ayude a los usuarios a buscar nuestros servicios de una forma más práctica y eficaz.
             </p>
           </div>
         </div>

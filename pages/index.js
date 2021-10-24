@@ -48,12 +48,16 @@ export default function Home() {
           
           <span><SentimentVerySatisfiedIcon className={styles.icon}/></span>
           <span className={styles.title}>CALIDAD</span>
-          <span className={styles.desc}>Gracias a que nuestros colaboradores se destacan en cada una de sus áreas, cada uno de nuestros servicios se ejecutan de la mejor manera.</span>
+          <span className={styles.desc}>
+          Gracias a que nuestros colaboradores se destacan en cada una de sus áreas, los servicios establecidos se ejecutaran de acuerdo a los requerimientos del cliente.
+          </span>
         </div>
         <div className={styles.section}>
           <span><TimerIcon className={styles.icon}/></span>
           <span className={styles.title}>TIEMPOS</span>
-          <span className={styles.desc}>Conocemos la importancia de este factor en la elaboración de un servicio, por este motivo cumplimos con las fechas establecidas en los contratos para un excelente servicio.</span>
+          <span className={styles.desc}>
+          Conocemos la importancia de este factor en la elaboración de nuestros  servicios, por este motivo cumplimos con las fechas establecidas.
+          </span>
 
         </div>
         <div className={styles.section}>
