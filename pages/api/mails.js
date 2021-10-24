@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 
-const user = process.env.USEREMAIL || "web@serviout.com";
-const pass = process.env.PASSEMAIL || "_daniel_"
+const user = process.env.USEREMAIL 
+const pass = process.env.PASSEMAIL 
 
 const transporter = nodemailer.createTransport({
   host:"serviout.com",
@@ -17,13 +17,21 @@ const transporter = nodemailer.createTransport({
 export default function handler(req, res) {
   try{
     let data = JSON.parse(req.body);
-    console.log(data);
-    console.log("dada");
     transporter.sendMail({
-      from:"'Servi Out Messages' <web@serviout.com> ",
-      to:"administracion@serviout.com",
-      subject:'website contact form',
-      text:"text"
+      from:`mensaje de ${data.name}`,
+      to:"eldraco123@gmail.com",
+      subject:`cotizar servicio ${data.service}`,
+      html:`
+      <article>
+        <header>
+          <h3>email de comprador ${data.email}</h3>
+          <h5>${data.phone}</h5>
+        </header>
+        <p>
+          ${data.message}
+        </p>
+      </article>
+`
     })
     res.status(200).json({ confirm:true});
   }catch(err){
