@@ -41,10 +41,10 @@
   box-sizing: border-box;
   z-index: 2;
   margin: 0;
-  color: rgb(255, 255, 255);
+  color: rgb(20, 20, 20);
   font-size: 45px;
-  border-bottom: rgb(255, 255, 255) 1px solid;
-  border-top: rgb(255, 255, 255) 1px solid;
+  border-bottom: crimson 2px solid;
+  border-top: crimson 2px solid;
   transition: .3s ease background-color;
   padding :17px 3px;
   user-select: none;
