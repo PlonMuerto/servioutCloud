@@ -29,7 +29,7 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  filter: opacity(40%);
+  filter: opacity(10%);
   position: absolute;
   background-image: url("https://res.cloudinary.com/handelcorp/image/upload/v1635105683/serviout/244967959_1492603891116789_6357830623286972594_n_x6afti.jpg");
   background-position: center center;
@@ -41,10 +41,10 @@
   box-sizing: border-box;
   z-index: 2;
   margin: 0;
-  color: rgb(20, 20, 20);
+  color: #141414;
   font-size: 45px;
-  border-bottom: crimson 2px solid;
-  border-top: crimson 2px solid;
+  border-bottom: #141414 2px solid;
+  border-top: #141414 2px solid;
   transition: .3s ease background-color;
   padding :17px 3px;
   user-select: none;
