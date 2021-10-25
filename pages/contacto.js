@@ -178,10 +178,9 @@ export default function Contacto() {
       service:currency,
     }
 
-    alert("¡Estamos en Desarrollo!")
-  
 
-    /*
+
+
     let res = await fetch("api/mails",{
       method:"POST",
       body:JSON.stringify(pedido)
@@ -190,7 +189,7 @@ export default function Contacto() {
     let data = await res.json;
 
     alert(JSON.stringify(data));
-    */
+
     
   }
   

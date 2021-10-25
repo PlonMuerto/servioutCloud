@@ -21,7 +21,7 @@ export default function RedesSociales(){
                 <Link href="https://www.facebook.com/Servi-Out-102844281668619/">
                     <a target="_blank" className={"social face"}><FacebookIcon  /></a>
                 </Link>
-                <Link href="https://www.instagram.com/servi_o.u.t/">
+                <Link href="https://www.instagram.com/serviout_/">
                     <a target="_blank" className={"social inst"}><InstagramIcon  /></a>
                 </Link>
                 <Link href="https://wa.me/573117988916">
