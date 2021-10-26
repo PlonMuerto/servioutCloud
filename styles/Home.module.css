@@ -42,7 +42,7 @@
 #body .presentacion .content{
   z-index: 2;
   width: 50%;
-  color: #141414;
+  color: #fefefe;
   font-weight: 700;
   text-align: justify;
   transition: .3s ease background-color;
