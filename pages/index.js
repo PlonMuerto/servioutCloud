@@ -29,7 +29,7 @@ export default function Home() {
         <meta name="author" content="DiosPlon" />
         <meta name="copyright" content="CannibalCommunity es dueña de esta patente y todo este diseño" />
         <meta name="keywords" content="servicios, construccion, construccion bogota, mudanzas, mudanzas bogota, serviout,contratistas"/>
-        <meta name="description" content="Pagina de Servicios de Construccion, Telecomunicaciones y Mudansas, presentacion como empresa y de nuestros servicios"/>
+        <meta name="description" content="Pagina de Servicios de Construccion, Telecomunicaciones y Mudanzas, presentacion como empresa y de nuestros servicios"/>
       </Head>
       <Navbar/>
     
