@@ -14,7 +14,7 @@ import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 
 import styles from '../styles/Home.module.css'
 
-const slides = ["https://res.cloudinary.com/handelcorp/image/upload/v1633647437/serviout/243365929_462987368215993_8673408298028831713_n_bypegp.gif","https://res.cloudinary.com/handelcorp/image/upload/v1633647715/serviout/244429435_343061970930212_5265718064868859633_n_o3zfhm.jpg","https://res.cloudinary.com/handelcorp/image/upload/v1633102049/serviout/inicio2_sr97ny.jpg"];
+const slides = ["https://res.cloudinary.com/handelcorp/image/upload/v1633647437/serviout/243365929_462987368215993_8673408298028831713_n_bypegp.gif","https://res.cloudinary.com/handelcorp/image/upload/v1633647715/serviout/244429435_343061970930212_5265718064868859633_n_o3zfhm.jpg","https://res.cloudinary.com/handelcorp/image/upload/v1635105683/serviout/244967959_1492603891116789_6357830623286972594_n_x6afti.jpg"];
 
 export default function Home() {
   return (
@@ -34,9 +34,6 @@ export default function Home() {
       <Navbar/>
     
       <section className={styles.presentacion}>
-        <div className={styles.background}>
-
-        </div>
         <h3 className={styles.subtitle}>¿Por qué deberías escoger nuestros servicios?</h3>
         <p className={styles.content}>
           Sabemos los requerimientos y necesidades  de nuestros clientes por este motivo, contamos con  un personal idóneo para la ejecución en la variedad de servicios que tenemos , cumpliendo con los precios y tiempos establecidos por el cliente y la empresa , utilizando los materiales con más alta calidad del mercado.
