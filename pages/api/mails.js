@@ -38,7 +38,7 @@ export default function handler(req, res) {
     	if (error) {  		
         console.log("Error");
         console.log(error);
-        res.status(500).json({confirm:false,error});
+        res.status(500).json({confirm:false,err:JSON.stringify(error)});
     	} else {
         
     		res.status(200).json({ confirm:true, info,transporter});
