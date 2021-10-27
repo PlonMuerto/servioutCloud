@@ -188,7 +188,9 @@ export default function Contacto() {
 
     let data = await res.json();
 
-    alert(JSON.stringify(data));
+    console.log("sadd");
+
+    console.log(data);
 
     
   }
