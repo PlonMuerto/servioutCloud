@@ -186,7 +186,7 @@ export default function Contacto() {
 
       setSend(true);
 
-
+      window.alert("Correo enviado, buenas tardes");
     
   }
   
@@ -295,13 +295,7 @@ export default function Contacto() {
                 onChange={messageChange}
               />
               <ColorButton  type="submit" disabled={send} >
-                {
-                (send)
-                ?
-                  <span>Mensaje Enviado</span>
-                :
                 Enviar
-                }
               </ColorButton>
             
           </form>
