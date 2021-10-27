@@ -192,6 +192,10 @@ export default function Contacto() {
 
     console.log(data);
 
+    if(data.err){
+      console.log(JSON.parse(data.err))
+    }
+
     
   }
   

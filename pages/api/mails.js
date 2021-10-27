@@ -39,7 +39,7 @@ export default function handler(req, res) {
   }catch(err){
     console.log("Error");
     console.log(err);
-    res.status(500).json({confirm:false,err,pass,user});
+    res.status(500).json({confirm:false,err:JSON.stringify(err),pass,user});
   }
   
 }
