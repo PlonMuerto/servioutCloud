@@ -20,8 +20,8 @@ export default function handler(req, res) {
     let data = JSON.parse(req.body);
 
     transporter.sendMail({
-      from:"administracion@serviout.com.es",
-      to:user,
+      from:user,
+      to:"administracion@serviout.com.es",
       subject:`cotizar servicio ${data.service}`,
       html:`
       <article>
