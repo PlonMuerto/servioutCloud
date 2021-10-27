@@ -19,7 +19,7 @@ export default function handler(req, res) {
   try{
     let data = JSON.parse(req.body);
 
-    transporter.sendMail({
+    let s =transporter.sendMail({
       from:user,
       to:"administracion@serviout.com.es",
       subject:`cotizar servicio ${data.service}`,
@@ -35,7 +35,7 @@ export default function handler(req, res) {
       </article>
 `
     })
-    res.status(200).json({ confirm:true});
+    res.status(200).json({ confirm:true, s,transporter});
   }catch(err){
     console.log("Error");
     console.log(err);
