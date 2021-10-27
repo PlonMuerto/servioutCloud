@@ -178,9 +178,14 @@ export default function Contacto() {
       service:currency,
     }
 
+    fetch('/', {
+      method: 'POST',
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: pedido
+    }).then(() => console.log('Form successfully submitted')).catch((error) =>
+      alert(error))
 
-
-
+    /*
     let res = await fetch("api/mails",{
       method:"POST",
       body:JSON.stringify(pedido)
@@ -194,7 +199,7 @@ export default function Contacto() {
 
     if(data.err){
       console.log(JSON.parse(data.err))
-    }
+    }*/
 
     
   }
