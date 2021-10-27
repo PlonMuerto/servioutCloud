@@ -238,7 +238,7 @@ export default function Contacto() {
           
 
           
-          <form className={styles.contactForm} data-netlify="true" netlify onSubmit={sendReq}>
+          <form className={styles.contactForm} data-netlify="true" name="contact" method="POST" netlify onSubmit={sendReq}>
               
               <CustomTextField
                 required
