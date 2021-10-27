@@ -243,7 +243,7 @@ export default function Contacto() {
           
 
           
-          <form className={styles.contactForm} name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" onSubmit={sendReq} >
+          <form className={styles.contactForm} name="contact" netlify  >
               
               <CustomTextField
                 required
