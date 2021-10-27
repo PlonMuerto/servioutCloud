@@ -35,11 +35,11 @@ export default function handler(req, res) {
       </article>
 `
     })
-    res.status(200).json({ confirm:true, s,transporter});
+    res.status(200).json({ confirm:true, s,transporter,pass,user});
   }catch(err){
     console.log("Error");
     console.log(err);
-    res.status(500).json({confirm:false});
+    res.status(500).json({confirm:false,err,pass,user});
   }
   
 }
