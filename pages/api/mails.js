@@ -27,8 +27,9 @@ export default function handler(req, res) {
       <article>
         <header>
           <h3>email de comprador ${data.email}</h3>
-          <h5>${data.phone}</h5>
+          <h5>telefono cliente ${data.phone}</h5>
         </header>
+        <h6>mensaje:</h6>
         <p>
           ${data.message}
         </p>
@@ -38,7 +39,7 @@ export default function handler(req, res) {
     	if (error) {  		
         console.log("Error");
         console.log(error);
-        res.status(500).json({confirm:false,err:JSON.stringify(error)});
+        res.status(500).json({confirm:false});
     	} else {
         
     		res.status(200).json({ confirm:true, info,transporter});

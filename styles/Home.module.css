@@ -28,8 +28,8 @@
   margin: 0;
   color: crimson;
   font-size: 45px;
-  border-bottom: #141414 2px solid;
-  border-top: #141414 2px solid;
+  border-bottom: crimson 2px solid;
+  border-top: crimson 2px solid;
   transition: .3s ease background-color;
   padding :17px 3px;
   user-select: none;

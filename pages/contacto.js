@@ -102,6 +102,7 @@ export default function Contacto() {
 
   
   const router = useRouter();
+  const [send,setSend]=useState(false);
 
   const [currency,setCurrency] = useState(router.query.service ? router.query.service :"camaras");
   const [message,setMessage] = useState();
@@ -183,15 +184,8 @@ export default function Contacto() {
       body:JSON.stringify(pedido)
     });
 
-    let data = await res.json();
+      setSend(true);
 
-    console.log("sadd");
-
-    console.log(data);
-
-    if(data.err){
-      console.log(JSON.parse(data.err))
-    }
 
     
   }
@@ -228,7 +222,7 @@ export default function Contacto() {
             <div className={styles.data}>
               <p className={styles.subtitle}>Póngase en contacto con nosotros a través de nuestras redes sociales </p>
               <p>Contactanos: <span className={styles.subtitle}>+57 311 798 8916</span> </p>
-              <p>Dirección: <span className={styles.subtitle}>Calle 69b 105-80</span> </p>
+              <p>Dirección: <span className={styles.subtitle}>Calle 69B 105-80</span> </p>
               
             </div>
           </div>
@@ -300,8 +294,14 @@ export default function Contacto() {
                 value={message}
                 onChange={messageChange}
               />
-              <ColorButton  type="submit">
+              <ColorButton  type="submit" disabled={send} >
+                {
+                (send)
+                ?
+                  <span>Mensaje Enviado</span>
+                :
                 Enviar
+                }
               </ColorButton>
             
           </form>
