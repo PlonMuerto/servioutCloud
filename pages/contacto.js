@@ -186,7 +186,7 @@ export default function Contacto() {
       body:JSON.stringify(pedido)
     });
 
-    let data = await res.json;
+    let data = await res.json();
 
     alert(JSON.stringify(data));
 
