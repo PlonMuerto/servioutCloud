@@ -186,7 +186,7 @@ export default function Contacto() {
 
       setSend(true);
 
-      window.alert("Correo enviado, buenas tardes");
+      window.alert("Mensaje Enviado con exito a ServiOut");
     
   }
   
