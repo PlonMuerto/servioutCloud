@@ -4,7 +4,7 @@ const user = process.env.USEREMAIL
 const pass = process.env.PASSEMAIL 
 
 const transporter = nodemailer.createTransport({
-  host:"serviout.com",
+  host:"serviout.com.es",
   port:465,
   secure:true,
   auth:{
@@ -19,7 +19,7 @@ export default function handler(req, res) {
     let data = JSON.parse(req.body);
     transporter.sendMail({
       from:`mensaje de ${data.name}`,
-      to:"eldraco123@gmail.com",
+      to:"administracion@serviout.com.es",
       subject:`cotizar servicio ${data.service}`,
       html:`
       <article>
