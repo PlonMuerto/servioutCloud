@@ -5,7 +5,7 @@ const pass = process.env.PASSEMAIL
 
 const transporter = nodemailer.createTransport({
   "host":"mail.serviout.com.es",
-  "secure":false,
+  "secure":true,
   "port":"143",
   "auth":{
     "type":"login",
